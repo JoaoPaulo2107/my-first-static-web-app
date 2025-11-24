@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Currículo João Paulo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Roboto:wght@300;400&display=swap" rel="stylesheet" />
+
+    <style>
+        body {
+            margin: 35px;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #f5f7fa; 
+            line-height: 1.6;
+        }
+
+        img {
+            margin-top: 15px; 
+            border-radius: 12px; 
+            object-fit: cover;
+            height: 250px;
+            width: 100%; 
+            max-width: 220px; 
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+
+        img:hover {
+            transform: scale(1.05);
+            box-shadow: 0 4px 15px rgb(173, 173, 235);
+        }
+
+        h1, h2 {
+            font-family: 'Playfair Display', serif;
+            color: #00527c;
+        }
+
+        p {
+            color: #063161;
+            font-size: 16px;
+        }
+
+        .container {
+            display: flex;
+            background-color: #dfe9f5; 
+            padding: 20px;
+            border-radius: 10px; 
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1); 
+            margin-top: 20px; 
+            transition: transform 0.2s; 
+        }
+
+        .container:hover {
+            transform: translateY(-4px); 
+        }
+
+        .image-section { flex: 1; padding-right: 10px; }
+        .text-section { flex: 2; }
+
+        @media (max-width: 768px) {
+            .container { flex-direction: column; }
+            .image-section { padding-right: 0; margin-bottom: 20px; }
+        }
+
+        footer {
+            padding: 25px;
+            text-align: center;
+            color: #23376e;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container-fluid">
+        <header>
+            <nav class="navbar navbar-dark fixed-top" style="background-color: #00609c">
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="#">Currículo João Paulo</a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+
+                    <div class="collapse navbar-collapse" id="navbarNav">
+                        <ul class="navbar-nav me-auto">
+                            <li class="nav-item"><a class="nav-link" href="#p1">Sobre mim</a></li>
+                            <li class="nav-item"><a class="nav-link" href="#p2">Cursos</a></li>
+                            <li class="nav-item"><a class="nav-link" href="#p3">Competências</a></li>
+                            <li class="nav-item"><a class="nav-link" href="#p4">Capacidades</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </header>
+
+        <!-- SOBRE MIM -->
+        <div class="parte1" id="p1">
+            <div class="container">
+                <div class="text-section">
+                    <h1>Sobre Mim</h1>
+                    <p>
+                        Meu nome é João Paulo, tenho 16 anos e curso Informática para a Web na ETEC Maria Cristina Medeiros. 
+                        Tenho noções básicas de HTML, CSS, Python e tenho inglês intermediário. Escolhi a área por gostar de trabalhar 
+                        no computador e ter interesse em trabalho remoto. Sou apaixonado por webtoons, mangás, manhwas, filmes e jogos.
+                        Aprendo rápido, tenho boa comunicação e facilidade para interagir com outras pessoas.
+                    </p>
+                </div>
+                <div class="image-section">
+                    <img src="img/eu.jpeg" alt="Foto de João Paulo">
+                </div>
+            </div>
+        </div>
+
+        <!-- CURSOS -->
+        <div class="parte2" id="p2">
+            <div class="container">
+                <div class="image-section">
+                    <img src="img/logo-etec.png">
+                </div>
+
+                <div class="text-section">
+                    <h1>Cursos</h1>
+
+                    <p>* <b>LS Idiomas:</b> Inglês desde 2022 (3 anos).</p>
+
+                    <p>* <b>ETEC:</b> Ensino Médio com Habilitação em Informática para Web (2024 - atual).</p>
+
+                    <p>* <b>SESI:</b> Ensino Fundamental completo na rede SESI em Ribeirão Pires.</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- COMPETÊNCIAS -->
+        <div class="parte3" id="p3">
+            <div class="container">
+                <div class="text-section">
+                    <h1>Competências Socioemocionais</h1>
+
+                    <p>• Bom tom de voz</p>
+                    <p>• Boa comunicação</p>
+                    <p>• Sociável</p>
+                    <p>• Proativo</p>
+
+                </div>
+
+                <div class="image-section">
+                    <img src="img/frente-ls-idiomas.jpg">
+                </div>
+            </div>
+        </div>
+
+        <!-- CAPACIDADES -->
+        <div class="parte4" id="p4">
+            <div class="container">
+                <div class="image-section">
+                    <img src="img/logo-sesi.jpg">
+                </div>
+
+                <div class="text-section">
+                    <h1>Capacidades</h1>
+                    <p><b>JavaScript:</b> iniciante, desenvolvendo projetos simples com HTML e CSS.</p>
+
+                    <p><b>Photoshop:</b> possui noções básicas.</p>
+
+                    <p><b>Python:</b> entende laços de repetição e condicionais.</p>
+
+                    <p><b>Inglês:</b> nível intermediário.</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- RODAPÉ -->
+        <footer>
+            <h5>&copy; 2024 João Paulo</h5>
+            <p>Rua Prefeito Francisco Arnoni, Vila Lavínia, 303 – Rio Grande da Serra, SP</p>
+
+            <a href="mailto:joao.p.azevedo2107@gmail.com" style="color:#00609c; text-decoration:none;">
+                Gmail
+            </a> |
+            <a href="https://github.com/JoaoPaulo2107" target="_blank" style="color:#00609c; text-decoration:none;">
+                GitHub
+            </a>
+
+            <br><br>
+
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3651.9796!2d-46.4037!3d-23.7481..."
+                width="600" height="300" style="border:0;" loading="lazy"></iframe>
+        </footer>
+
+        <button onclick="location.href='index.html'" class="btn btn-primary mt-3">Voltar</button>
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js"></script>
+    </div>
+
+      
+</body>
+</html>
