@@ -10,7 +10,7 @@ const CurriculoJoao = () => {
           ← Voltar para Home
         </Link>
         <h1 className="display-5 fw-bold text-primary">João Paulo Souza Azevedo</h1>
-        <p className="lead">Desenvolvedor Web | Estudante de Informática</p>
+        <p className="lead">Estudante de Informática</p>
       </div>
 
       <div className="row">
@@ -67,7 +67,7 @@ const CurriculoJoao = () => {
               <p className="card-text">
                 Meu nome é João Paulo, tenho 17 anos e curso Informática para a Web na ETEC Maria Cristina Medeiros. 
                 Tenho noções básicas de HTML, CSS, Python e tenho inglês intermediário. Escolhi a área por gostar de trabalhar 
-                no computador e ter interesse em trabalho remoto. Sou apaixonado por webtoons, mangás, manhwas, filmes e jogos.
+                no computador e ter interesse em trabalho remoto. Sou apaixonado por livros, webtoons, mangás, manhwas, filmes,jogos. Praticante de boxe e musculação.
                 Aprendo rápido, tenho boa comunicação e facilidade para interagir com outras pessoas.
               </p>
             </div>
@@ -114,6 +114,7 @@ const CurriculoJoao = () => {
                     <li className="mb-2"><i className="bi bi-check-circle text-success me-2"></i>Boa comunicação</li>
                     <li className="mb-2"><i className="bi bi-check-circle text-success me-2"></i>Sociável</li>
                     <li className="mb-2"><i className="bi bi-check-circle text-success me-2"></i>Proativo</li>
+                    <li className="mb-2"><i className="bi bi-check-circle text-success me-2"></i>Resolução de problmeas</li>
                     <li><i className="bi bi-check-circle text-success me-2"></i>Aprendizagem rápida</li>
                   </ul>
                 </div>
@@ -139,7 +140,7 @@ const CurriculoJoao = () => {
                   
                   <div className="mb-3">
                     <h6 className="fw-bold">Python</h6>
-                    <p className="mb-0 small">Entende laços de repetição e condicionais</p>
+                    <p className="mb-0 small">Entende laços de repetição,condicionais,listas</p>
                   </div>
                   
                   <div>

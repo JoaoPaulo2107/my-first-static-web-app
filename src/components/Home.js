@@ -15,7 +15,7 @@ const Home = () => {
             <div className="card">
               <div className="card-body text-center">
                 <h2 className="card-title">Leonardo Zaia Silva</h2>
-                <p className="card-text">Desenvolvedor Web | Técnico em Informática | 15 anos</p>
+                <p className="card-text">Desenvolvedor Web | Técnico em Informática | 16 anos</p>
                 <Link to="/curriculo-leonardo" className="btn btn-primary btn-lg">
                   Ver Currículo Completo
                 </Link>
@@ -27,7 +27,7 @@ const Home = () => {
             <div className="card">
               <div className="card-body text-center">
                 <h2 className="card-title">João Paulo Souza Azevedo</h2>
-                <p className="card-text">Desenvolvedor Web | Estudante de Informática | 16 anos</p>
+                <p className="card-text">Desenvolvedor Web | Estudante de Informática | 17 anos</p>
                 <Link to="/curriculo-joao" className="btn btn-primary btn-lg">
                   Ver Currículo Completo
                 </Link>
@@ -39,7 +39,7 @@ const Home = () => {
         <div className="mt-5">
           <h3>Sobre este Portal</h3>
           <p>Este site foi desenvolvido em React para demonstrar habilidades em desenvolvimento web front-end.</p>
-          <p>Os currículos apresentados são de estudantes talentosos da área de tecnologia.</p>
+          <p>Os currículos apresentados são de estudantes da área de desenvolvimento web.</p>
         </div>
       </div>
     </div>
